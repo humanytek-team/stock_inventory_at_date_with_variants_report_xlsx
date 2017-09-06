@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+    	<record id="config_inventory_at_date_report_xlsx_variants_attrs" model="ir.config_parameter">
+            <field name="key">inventory_at_date_report_xlsx_variants_attrs</field>
+            <field name="value">
+              Place here the attributes (separated by commas) to be presented in the report.
+            </field>
+        </record>
+    </data>
+</openerp>

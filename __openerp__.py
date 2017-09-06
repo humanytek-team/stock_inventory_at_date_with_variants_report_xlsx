@@ -32,6 +32,7 @@
     'version': '0.1.0',
     'depends': ['stock_account', 'report_xlsx'],
     'data': [
+        'data/ir_config_parameter.xml',
         'report/inventory_at_date_report_xlsx.xml',
     ],
     'demo': [
