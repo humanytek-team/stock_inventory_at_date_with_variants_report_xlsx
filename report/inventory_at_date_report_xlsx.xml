@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record
+          id="action_inventory_at_date_with_variants_report_xlsx"
+          model="ir.actions.report.xml">
+          <field name="name">Report (xlsx) Inventory at date with variants</field>
+          <field name="model">stock.history</field>
+          <field name="type">ir.actions.report.xml</field>
+          <field name="report_name">inventory.at.date.with.variants.report.xlsx</field>
+          <field name="report_type">xlsx</field>
+          <field name="auto" eval="False"/>
+        </record>
+
+        <record
+          model="ir.values"
+          id="action_inventory_at_date_with_variants_report_xlsx_values">
+          <field name="name">Report (xlsx) Inventory at date with variants</field>
+          <field name="key2">client_action_multi</field>
+          <field
+            name="value"
+            eval="'ir.actions.report.xml,' +str(ref('action_inventory_at_date_with_variants_report_xlsx'))" />
+          <field name="model">stock.history</field>
+        </record>
+
+    </data>
+  </openerp>
