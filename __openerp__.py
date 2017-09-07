@@ -33,7 +33,7 @@
     'author': "Humanytek",
     'website': "http://www.humanytek.com",
     'category': 'Stock',
-    'version': '1.0.0',
+    'version': '1.1.0',
     'depends': ['stock_account', 'report_xlsx'],
     'data': [
         'data/ir_config_parameter.xml',
